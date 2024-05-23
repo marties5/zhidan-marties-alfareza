@@ -1,0 +1,19 @@
+@keyframes out {
+    0% {
+      opacity: 1;
+      transform: translateY(2rem) scale(0);
+      transform-origin: bottom;
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(-3rem) scale(1);
+      transform-origin: top left;
+    }
+  }
+  
+  .animate-out {
+    animation: out 0.4s;  }
+  
+
+
+  
