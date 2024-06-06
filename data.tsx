@@ -145,7 +145,7 @@ export const data = {
       },
       {
         project_name: "Comet Vooting App",
-        image: "https://i.ibb.co.com/WV9nWrP/image-7.png",
+        image: "https://i.ibb.co.com/xYvMv5D/image-7.png",
         description:
           "Website used to vote for the head of an organization during a change of position in an organization",
         tools: ["Typescript", "Tailwindcss", "Next.js 13", "vercel"],
