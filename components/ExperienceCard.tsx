@@ -2,7 +2,7 @@ import { ToolsCard } from "./ToolsCard";
 import { Typography } from "./Typography";
 export const ExperienceCard = ({ data }: { data: any }) => {
   return (
-    <div className="hover:border-slate-200  border border-transparent p-2 mt-10 rounded-md">
+    <div className="hover:border-purple-200  border border-transparent p-2 mt-10 rounded-md">
       <div className=" lg:flex lg:space-x-2">
         <Typography variant="overline">{data.time_range}</Typography>
         <div className="w-full max-w-lg lg:mt-0 mt-4">
@@ -29,7 +29,7 @@ export const ExperienceCard = ({ data }: { data: any }) => {
                 <div key={project}>
                   <Typography
                     variant="body2"
-                    className="hover:text-slate-500 text-slate-400"
+                    className="hover:text-purple-500 text-slate-400"
                   >
                     {project}
                   </Typography>

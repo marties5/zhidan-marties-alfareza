@@ -3,7 +3,7 @@ import { Typography } from "./Typography";
 export const ProfesionalProfileCard = ({ content }: any) => {
   return (
     <div className="space-y-4">
-      <Typography variant="h6">{content.title}</Typography>
+      <Typography variant="h5">{content.title}</Typography>
       
       <div className="space-y-4">
         {content.value.map((text: string, index: number) => (

@@ -3,7 +3,7 @@ import { TextFormaterProps } from "./interface";
 
 const tagMap: { [key: string]: keyof JSX.IntrinsicElements } = {
   b: "strong",
-  i: "em",
+  i: "i",
   u: "u",
   small: "small",
   strong: "strong",
@@ -12,6 +12,7 @@ const tagMap: { [key: string]: keyof JSX.IntrinsicElements } = {
   ins: "ins",
   del: "del",
   mark: "mark",
+  em: "em",
 };
 
 const TextFormater: React.FC<TextFormaterProps> = ({ text }) => {
@@ -22,6 +23,8 @@ const TextFormater: React.FC<TextFormaterProps> = ({ text }) => {
       const endOfUrlIndex = word.indexOf("]");
       const url = word.substring(5, endOfUrlIndex);
       const linkText = word.substring(endOfUrlIndex + 2).replace(/:/g, " ");
+      const linkTextMatch = word.match(/\]:\((.*?)\)/);
+      console.log("linkText", linkText);
       return (
         <a
           key={index}
@@ -44,7 +47,7 @@ const TextFormater: React.FC<TextFormaterProps> = ({ text }) => {
   return (
     <>
       {text.split(" ").map((word, index) => (
-        <React.Fragment  key={index}>{formatWord(word, index)} </React.Fragment>
+        <React.Fragment key={index}>{formatWord(word, index)} </React.Fragment>
       ))}
     </>
   );

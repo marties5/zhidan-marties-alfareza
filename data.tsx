@@ -16,9 +16,9 @@ export const data = {
       {
         title: "Profile",
         value: [
-          "I am an alumnus of link[https://www.smktelkom-mlg.sch.id]/:SMK Telkom Malang, class of 30, with a deep interest in learning and research on technology development, especially in website development. I am known as an individual committed to enhancing my knowledge and skills, with good time management abilities.  ",
-          "During my time in school, I gained experience in forming solid teams and building a technology development community. I led various initiatives that successfully completed many projects, enhancing my technical and leadership skills.",
-          "I am familiar with web development technologies such as React, Nuxt.js, and Next.js. My experience with these technologies allows me to build dynamic, responsive, and high-performance web applications.",
+          "I am an alumnus of b/SMK b/Telkom b/Malang, class of 30, with a deep interest in learning and research on technology development, especially in website development. I am known as an individual committed to enhancing my knowledge and skills, with good time management abilities.  ",
+          "During my time in school, I gained experience in forming solid teams and b/building b/a b/technology b/development b/community. I led various initiatives that successfully completed many projects, enhancing my technical and leadership skills.",
+          "I am familiar with web development technologies such as b/React, strong/Nuxt.js, and b/Next.js. My experience with these technologies allows me to build dynamic, responsive, and high-performance web applications.",
         ],
       },
     ],

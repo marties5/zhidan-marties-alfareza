@@ -5,10 +5,11 @@ import { SocialMediaCard } from "@/components/SocialMediaCard";
 import { Typography } from "@/components/Typography";
 import { data } from "@/data";
 import { SocialMediaInterface } from "@/lib/interface";
+import { Footer } from "@/components/Footer";
 export default function Home() {
   return (
     <div className="h-full grid lg:grid-cols-5 grid-cols-2 flex-col max-w-7xl mx-auto md:h-screen">
-      <div className="w-full flex flex-col col-span-2 space-y-4 justify-between py-10 lg:h-screen lg:px-10 px-4 h-96">
+      <div className="w-full flex flex-col col-span-2 space-y-4 justify-between py-10 lg:h-[90%] my-auto lg:px-10 px-4 h-96">
         <div className="space-y-8 ">
           <div>
             <Typography variant="h3">{data.user.name}</Typography>
@@ -30,7 +31,7 @@ export default function Home() {
           ))}
         </div>
       </div>
-      <div className="w-full h-full col-span-3 space-y-4 px-10 lg:pt-10 lg:overflow-y-auto pb-10">
+      <div className="w-full h-full col-span-3 lg:my-10 lg:h-[95%] space-y-4 px-10 lg:pt-10 lg:overflow-y-auto pb-10">
         {data.user.profile_contents.map((content: any, index: number) => (
           <ProfesionalProfileCard content={content} key={index} />
         ))}
@@ -44,6 +45,7 @@ export default function Home() {
         {data.user.projects.map((project: any, index: number) => (
           <ProjectCard project={project} key={index} />
         ))}
+        <Footer/>
       </div>
     </div>
   );

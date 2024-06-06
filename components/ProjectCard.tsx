@@ -4,7 +4,7 @@ import { Typography } from "./Typography";
 
 export const ProjectCard = ({ project }: any) => {
   return (
-    <div className="hover:border-slate-200  border border-transparent p-2 mt-10 rounded-md group">
+    <div className="hover:border-purple-200  border border-transparent p-2 mt-10 rounded-md group">
       <Typography variant="h6">{project.project_name}</Typography>
       <Typography variant="body1" className="text-slate-400 capitalize">
         {project.role}
@@ -12,7 +12,7 @@ export const ProjectCard = ({ project }: any) => {
       <div className="mt-3">
         <div className="flex lg:flex-row flex-col lg:pr-20 gap-8 mb-4">
           <Image
-            className="aspect-video object-cover lg:h-20 h-full w-fit group-hover:border-slate-300 border border-slate-200 hover:bg-slate-50 rounded-md"
+            className="aspect-video object-cover lg:h-20 h-full w-fit group-hover:border-purple-300 border border-slate-200 hover:bg-slate-50 rounded-md"
             src={project.image}
             width={1000}
             height={700}
