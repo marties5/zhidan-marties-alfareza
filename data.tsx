@@ -6,8 +6,8 @@ import {
 } from "react-icons/fa6";
 export const data = {
   user: {
-    name: "Z Marties Alfareza",
-    title: "Project manager | Acounting | Frontend Developer | Problem solving",
+    name: "Zhidan Marties Alfareza",
+    title: "Project manager | Frontend Developer | Problem solving",
     motivation:
       "Creating a balance between one and the next - Work as you do in front of you",
     email: "martieszhidan@gmail.com",
@@ -16,9 +16,9 @@ export const data = {
       {
         title: "Profile",
         value: [
-          "Saya adalah alumni link[https://www.smktelkom-mlg.sch.id]/SMK:Telkom:Malang angkatan 30 yang memiliki minat mendalam dalam belajar dan riset mengenai pengembangan teknologi, terutama dalam pengembangan website. Saya dikenal sebagai individu yang berkomitmen untuk meningkatkan pengetahuan dan keterampilan saya, dengan kemampuan  manajemen waktu yang baik .",
-          "Selama di sekolah, saya berpengalaman dalam membentuk tim yang solid dan membangun komunitas pengembangan teknologi. Saya memimpin berbagai inisiatif yang berhasil menyelesaikan banyak proyek, meningkatkan keterampilan teknis dan kepemimpinan saya.",
-          "Saya familiar dengan teknologi pengembangan website seperti React, Nuxt.js, dan Next.js. Pengalaman saya dengan teknologi-teknologi ini memungkinkan saya membangun aplikasi web yang dinamis, responsif, dan berkinerja tinggi.",
+          "I am an alumnus of link[https://www.smktelkom-mlg.sch.id]/:SMK Telkom Malang, class of 30, with a deep interest in learning and research on technology development, especially in website development. I am known as an individual committed to enhancing my knowledge and skills, with good time management abilities.  ",
+          "During my time in school, I gained experience in forming solid teams and building a technology development community. I led various initiatives that successfully completed many projects, enhancing my technical and leadership skills.",
+          "I am familiar with web development technologies such as React, Nuxt.js, and Next.js. My experience with these technologies allows me to build dynamic, responsive, and high-performance web applications.",
         ],
       },
     ],
@@ -33,7 +33,7 @@ export const data = {
         company: "Ciboox Indoesia",
         tools: ["Spreadsheet"],
         time_range: "AUG 2022 - JAN 2023",
-        project: ["Ppdb Min 1 Malang", "Vragio.com"],
+        projects: ["Ppdb Min 1 Malang", "Vragio.com"],
       },
       {
         title: "FrontEnd Developer",
@@ -45,7 +45,7 @@ export const data = {
         company: "Ciboox Indoesia",
         tools: ["Typescript", "React.Js", "Next.Js", "Tailwind CSS"],
         time_range: "JAN 2023 - JAN 2024",
-        project: [
+        projects: [
           "Ecatra",
           "Comet vooting App",
           "MeMo vooting App",
@@ -64,7 +64,7 @@ export const data = {
         company: "Telkom Indoesia",
         tools: ["Typescript", "Next.Js", "Tailwind CSS", "JIRA", "Discord"],
         time_range: "JUN 2023 - NOV 2023",
-        project: ["Resource Management", "Web Profile"],
+        projects: ["Resource Management", "Web Profile"],
       },
       {
         title: "FrontEnd Developer",
@@ -82,19 +82,99 @@ export const data = {
           "Microsoft Teams",
         ],
         time_range: "DES 2023 - JAN 2024",
-        project: ["Resource Management", "Web Profile"],
+        projects: ["Resource Management", "Web Profile"],
       },
       {
         title: "FrontEnd Developer",
-        description: ["Make the best on this company to make a family feel"],
+        description: ["Make the best on this company to make _a family feel"],
         company: "PT Cubiconia Kanaya Pratama",
-        tools: ["Typescript", "Next.Js", "Tailwind CSS", "Gitlat"],
+        tools: ["Typescript", "Next.Js", "Tailwind CSS", "Gitlab"],
         time_range: "FEB 2023 - PRESENT",
-        project: ["IDM", "Warehouse Management"],
+        projects: [],
       },
     ],
+    projects: [
+      {
+        project_name: "Tukulan web",
+        image: "https://i.ibb.co.com/7b5WPrv/image.png",
+        description:
+          "This website is used to display a list of plants available in a shop, and you can make ordering transactions in it",
+        tools: ["Javascript", "Tailwindcss", "Next.js 12", "vercel"],
+        role: "developer",
+      },
+      {
+        project_name: "Moklet Science",
+        image: "https://i.ibb.co.com/dbKmRbn/Moklet-Last-Match.png",
+        description:
+          "This website is used to monitor football players in terms of their respective performance and record the time in a football event and describe each respective event.",
+        tools: ["Typescript", "Tailwindcss", "Next.js 13", "vercel"],
+        role: "developer",
+      },
+      {
+        project_name: "Web profile Moklet science",
+        image: "https://i.ibb.co.com/M9tVPsc/image.png",
+        description:
+          "This website contains football news and schedule monitoring which is connected to the event website in real time",
+        tools: ["Typescript", "Tailwindcss", "Next.js 13", "vercel"],
+        role: "developer",
+      },
 
-    project: [{ project_name: "", image: "", description: "", tools: [] }],
+      {
+        project_name: "Web profile DBT",
+        image: "https://i.ibb.co.com/3N77Zd3/image.png",
+        description:
+          "This website contains football news and schedule monitoring which is connected to the event website in real time",
+        tools: ["Typescript", "Tailwindcss", "Next.js 13", "vercel"],
+        role: "developer",
+      },
+      {
+        project_name: "Metic Vooting App",
+        image: "https://i.ibb.co.com/KWccdcS/image-13.png",
+        description:
+          "Website used to vote for the head of an organization during a change of position in an organization",
+        tools: ["Typescript", "Tailwindcss", "Next.js 13", "vercel"],
+        role: "developer",
+      },
+      {
+        project_name: "Memo Vooting App",
+        image: "https://i.ibb.co.com/XkVKJ21/image-10.png",
+        description:
+          "Website used to vote for the head of an organization during a change of position in an organization",
+        tools: ["Typescript", "Tailwindcss", "Next.js 13", "vercel"],
+        role: "developer",
+      },
+      {
+        project_name: "Comet Vooting App",
+        image: "https://i.ibb.co.com/WV9nWrP/image-7.png",
+        description:
+          "Website used to vote for the head of an organization during a change of position in an organization",
+        tools: ["Typescript", "Tailwindcss", "Next.js 13", "vercel"],
+        role: "developer",
+      },
+      {
+        project_name: "Beep tes App",
+        image: "https://i.ibb.co.com/J2yQ1ms/Screenshot-2024-06-05-222101.png",
+        description:
+          "Website used to measure the speed of runners in covering a distance and comparing with other opponents",
+        tools: ["Typescript", "Tailwindcss", "Next.js 13", "vercel"],
+        role: "project manager",
+      },
+      {
+        project_name: "Web profile undefined team",
+        image: "https://i.ibb.co.com/7bGZvvN/Screenshot-2024-06-05-225446.png",
+        description:
+          "Website profile to introduce the contents of our professional team ",
+        tools: ["Typescript", "Tailwindcss", "Next.js 13", "vercel"],
+        role: "developer",
+      },  {
+        project_name: "App Caffe",
+        image: "https://i.ibb.co.com/p1DLRGQ/Screenshot-2024-06-05-221900.png",
+        description:
+          "Point of service used to analyze cashier transactions and make order and sales transactions",
+        tools: ["Typescript", "Tailwindcss", "Next.js 13", "vercel"],
+        role: "developer",
+      },
+    ],
 
     social_media: [
       {
