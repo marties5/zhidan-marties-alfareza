@@ -7,7 +7,7 @@ import {
 export const data = {
   user: {
     name: "Zhidan Marties Alfareza",
-    title: "Project manager | Frontend Developer | Problem solving",
+    title: "Project manager | Frontend Developer | Systems Analyst",
     motivation:
       "Creating a balance between one and the next - Work as you do in front of you",
     email: "martieszhidan@gmail.com",
@@ -30,7 +30,7 @@ export const data = {
           "Assembling and overseeing the project team, monitoring performance to ensure alignment with goals",
           "Conducting evaluation after project completion",
         ],
-        company: "Ciboox Indoesia",
+        company: "Ciboox Indonesia",
         tools: ["Spreadsheet"],
         time_range: "AUG 2022 - JAN 2023",
         projects: ["Ppdb Min 1 Malang", "Vragio.com"],
@@ -42,7 +42,7 @@ export const data = {
           "Fetching data and implementing code with JavaScript and TypeScript",
           "Implement atomic design and create components by grouping them",
         ],
-        company: "Ciboox Indoesia",
+        company: "Ciboox Indonesia",
         tools: ["Typescript", "React.Js", "Next.Js", "Tailwind CSS"],
         time_range: "JAN 2023 - JAN 2024",
         projects: [
@@ -61,7 +61,7 @@ export const data = {
           "Daily scrum and reporting progres on assigned task",
           "Slicing Ui and creating website dashboard to manage internal office resource",
         ],
-        company: "Telkom Indoesia",
+        company: "Telkom Indonesia",
         tools: ["Typescript", "Next.Js", "Tailwind CSS", "JIRA", "Discord"],
         time_range: "JUN 2023 - NOV 2023",
         projects: ["Resource Management", "Web Profile"],
@@ -166,12 +166,21 @@ export const data = {
           "Website profile to introduce the contents of our professional team ",
         tools: ["Typescript", "Tailwindcss", "Next.js 13", "vercel"],
         role: "developer",
-      },  {
+      },
+      {
         project_name: "App Caffe",
         image: "https://i.ibb.co.com/p1DLRGQ/Screenshot-2024-06-05-221900.png",
         description:
           "Point of service used to analyze cashier transactions and make order and sales transactions",
         tools: ["Typescript", "Tailwindcss", "Next.js 13", "vercel"],
+        role: "developer",
+      },
+      {
+        project_name: "Destinysix Shop Service",
+        image: "https://i.ibb.co/hdT9Q8Y/Screenshot-2024-07-14-181454.png",
+        description:
+          "Point of service used to analyze cashier transactions and make order and sales transactions",
+        tools: ["Typescript", "Tailwindcss", "Next.js 14"],
         role: "developer",
       },
     ],

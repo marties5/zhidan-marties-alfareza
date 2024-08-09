@@ -45,7 +45,7 @@ export default function Home() {
         {data.user.projects.map((project: any, index: number) => (
           <ProjectCard project={project} key={index} />
         ))}
-        <Footer/>
+        <Footer />
       </div>
     </div>
   );
