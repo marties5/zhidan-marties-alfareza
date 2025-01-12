@@ -177,9 +177,18 @@ export const data = {
       },
       {
         project_name: "Destinysix Shop Service",
-        image: "https://i.ibb.co/hdT9Q8Y/Screenshot-2024-07-14-181454.png",
+        image: "https://i.ibb.co.com/hdT9Q8Y/Screenshot-2024-07-14-181454.png",
         description:
           "Point of service used to analyze cashier transactions and make order and sales transactions",
+        tools: ["Typescript", "Tailwindcss", "Next.js 14"],
+        role: "developer",
+      },
+      {
+        project_name: "Olimawisa SMK TELKOM MALANG",
+        image:
+          "https://i.ibb.co.com/z6qmMWj/Whats-App-Image-2025-01-12-at-21-40-48.jpg",
+        description:
+          "WEB yang berguna untuk pemantauan scorring lomba siswa antar sekolah dengan pemantauan reatime dan akurat",
         tools: ["Typescript", "Tailwindcss", "Next.js 14"],
         role: "developer",
       },
